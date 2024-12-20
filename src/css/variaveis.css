@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+:root{
+    --cor-de-fundo: #2E8A57;
+    --cor-destaque: #5AACA0;
+    --fonte-titulo: "Julius Sans One", serif;
+    --fonte-padrao: "Jura", serif;
+}

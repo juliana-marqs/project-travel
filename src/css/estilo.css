@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+}
+
+header{
+    background: linear-gradient(to bottom, var(--cor-de-fundo), var(--cor-destaque), var(--cor-de-fundo));
+    max-height: 100%;
+    font-family: var(--fonte-padrao);
+}
+
+header .cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header .cabecalho .logo{
+    font-family: var(fonte-titulo);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+header .cabecalho ul{
+    display: flex;
+    padding-right: 20px;
+}
+
+header .boas-vindas img{
+    max-width: 100%;
+    width: 300px;
+    border-radius: 30px;
+}
